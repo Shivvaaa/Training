@@ -5,9 +5,10 @@ public class NumPalindrom {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num=454;
-		int temp=num, rev=0;
+		int temp=num, rev=0,rem;
 		while(num>0) {
-			rev=(rev*10)+(num%10);
+			rem=num%10;
+			rev=(rev*10)+rem;
 			num=num/10;
 			
 					

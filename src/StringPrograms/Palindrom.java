@@ -5,7 +5,8 @@ public class Palindrom {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str="hema";
+		String str="I'm the string";
+		str=str.replace("'", " ");
 		String rev = "";
 		for(int i=str.length()-1;i>=0;i--) {
 			rev=rev+str.charAt(i);
