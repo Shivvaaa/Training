@@ -5,7 +5,7 @@ public class RevPrintTheSentence {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str="   Hemas is my love      ";
+		String str="Hema is my love";
 		char[] input=str.toCharArray();
 		char[] result=new char[input.length];
 		for(int i=0;i<input.length;i++) {

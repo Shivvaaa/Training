@@ -15,7 +15,7 @@ public class ReversetheWordinSentence {
 				revword=revword+word.charAt(j);
 				
 			}rev=rev+revword+" ";
-		}System.out.println(rev);
+		}System.out.println(rev); //ehT avaj margorp 
 
 	}
 

@@ -13,7 +13,7 @@ public class ReversetheSentence {
 //		}System.out.println(rev);
 		
 		//Reverse the sentence and the word
-		String str="the value of the string";
+		String str="The java program";
 		String[] arr=str.split(" ");
 		String rev="";
 		for(int i=arr.length-1;i>=0;i--) {
@@ -22,7 +22,7 @@ public class ReversetheSentence {
 			for(int j=word.length()-1;j>=0;j--) {
 				revword=revword+word.charAt(j);
 			}rev=rev+revword+" ";
-		}System.out.println(rev);
+		}System.out.println(rev);//margorp avaj ehT
 		
 	}
 
