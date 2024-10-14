@@ -21,7 +21,7 @@ public class CounttheRepeatedWords {
 		
 		Set<String> wordsin = WordCount.keySet();
 		for(String word : wordsin) {
-			if(WordCount.get(word) > 1) {
+			if(WordCount.get(word)>1) {
 				System.out.println(word+" "+WordCount.get(word));
 			}
 		}
