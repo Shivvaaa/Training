@@ -5,7 +5,7 @@ public class ArrayEndsZero {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] arr= {010,20,0,0,0,10};
+		int[] arr= {10,20,0,0,0,10};
 		int n=arr.length;
 		int temp,i;
 		int j=0;
